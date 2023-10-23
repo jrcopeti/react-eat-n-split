@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# React Eat-n-Split
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's a friend's expense tracker that helps users manage and track expenses among friends. It provides functionalities like adding friends to a list, selecting a friend, and splitting a bill, while updating the balance accordingly. It's part of React course.
 
-## Available Scripts
+![Screenshot](public/screenshot1.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add a New Friend**: Add friends' details, including their name and image URL, to track new expenses.
+- **Friends List**: View all friends along with their balance status. The list highlights debts and credits for easy understanding.
+- **Select/Deselect Friends**: Choose a friend to split expenses or deselect to go back to the main view.
+- **Split a Bill**: Input the bill's total amount, specify the amount you paid, and let the app calculate the rest. It adjusts balances based on who covered the bill.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## React Concepts Applied
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Components and Props
 
-### `npm test`
+- Creating reusable components.
+- Passing and accessing props in components.
+- Structuring components hierarchically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### State Management
 
-### `npm run build`
+- Using `useState` for local state management.
+- Propagating state changes across components.
+- Lifting state up for access by multiple components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Conditional Rendering
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Employing logical conditions to render UI elements.
+- Manipulating components based on state.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Forms and Events
 
-### `npm run eject`
+- Handling forms and form submissions.
+- Implementing controlled components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Lists and Keys
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Rendering lists dynamically.
+- Understanding the purpose of keys in lists.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Advanced Patterns
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Applying common patterns like lifting state up.
+- Utilizing callback functions in components.
