@@ -1,6 +1,6 @@
 # React Eat-n-Split
 
-It's a friend's expense tracker that helps users manage and track expenses among friends. It provides functionalities like adding friends to a list, selecting a friend, and splitting a bill, while updating the balance accordingly. It's part of React course.
+It's a friend's expense tracker that helps users manage and track expenses among friends. 
 
 ![Screenshot](public/screenshot1.png)
 
